@@ -1,0 +1,24 @@
+/* Forgettable brand tokens. Status per token in brand/locked.json. Contract 1.6. */
+:root {
+  --brand-paper: #F9FAFB;          /* locked. source: owner answer 2026-10-29 (brand/intake.log.md Q-paper); Figma "background" in brand/sources/figma-export.md */
+  --brand-ink: #000020;            /* locked. source: owner answer 2026-10-29 (brand/intake.log.md Q-ink); Figma "color/surface/surface-black" in brand/sources/figma-export.md */
+  --brand-accent: #FF5F08;         /* locked. source: brand/sources/intake-form.md Q2 ("FF5F08"); Figma "primary orange" */
+  --brand-accent-ink: #000020;     /* derived. source: contrast of ink on #FF5F08 = 6.75:1 (white is 3.05:1), see brand/intake.log.md */
+  --brand-muted: #27272A;          /* locked. source: owner answer 2026-10-29 (brand/intake.log.md Q-muted); Figma "dark grey" in brand/sources/figma-export.md */
+  --brand-muted-on-ink: #8E8E93;   /* derived. source: Figma "Grays/Gray" in brand/sources/figma-export.md; 6.31:1 on ink, used where muted #27272A would vanish (1.38:1) */
+  --brand-accent-2: #C9BFFF;       /* derived. source: Figma "primary purple" in brand/sources/figma-export.md; also in brand/sources/Forgettablelogo.svg gradient */
+  --brand-accent-3: #E2F8AE;       /* derived. source: Figma "primary green" in brand/sources/figma-export.md */
+  --brand-font-display: "Plus Jakarta Sans", sans-serif;  /* locked. source: brand/sources/intake-form.md Q3 ("Plus Jakarta Sans primarily for headers and copy") */
+  --brand-font-body: "Plus Jakarta Sans", sans-serif;     /* locked. source: brand/sources/intake-form.md Q3 */
+  --brand-weight-display: 700;     /* derived. source: Figma "Title"/"Heading" style (Bold, 700) in brand/sources/figma-export.md */
+  --brand-weight-body: 400;        /* derived. source: Figma "Body" style (Regular, 400) in brand/sources/figma-export.md */
+  --brand-weight-label: 700;       /* derived. source: Figma "Body emphasised" style (Bold, 700) in brand/sources/figma-export.md */
+  --brand-tracking-display: 0;     /* derived. source: Figma "Title"/"Heading" letterSpacing 0 in brand/sources/figma-export.md */
+  --brand-radius: 16px;            /* derived. source: Figma card component 135:5101 radius 16px in brand/sources/figma-export.md */
+}
+
+/* BEGIN CURATED */
+/* Orange text on paper is 2.92:1, under 3:1 even for large text: accent-painted text on paper falls back to ink. Orange stays for bars and marks. */
+.pg-frame[data-scheme="paper"] { --pg-accent-text: var(--brand-ink); }  /* derived. source: contrast #FF5F08 on #F9FAFB = 2.92:1, brand/intake.log.md */
+/* Muted #27272A on ink #000020 is 1.38:1 and vanishes: the ink scheme uses the Figma grey. */
+.pg-frame[data-scheme="ink"] { --pg-muted: var(--brand-muted-on-ink); }  /* derived. source: contrast table in brand/intake.log.md */

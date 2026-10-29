@@ -1,0 +1,24 @@
+{
+  "contractVersion": "1.6",
+  "tokens": {
+    "--brand-paper": { "status": "locked", "source": "supplied by owner, answer 2026-10-29 (brand/intake.log.md); Figma \"background\" #f9fafb, brand/sources/figma-export.md" },
+    "--brand-ink": { "status": "locked", "source": "supplied by owner, answer 2026-10-29 (brand/intake.log.md); Figma \"color/surface/surface-black\" #000020, brand/sources/figma-export.md" },
+    "--brand-accent": { "status": "locked", "source": "supplied by owner, brand/sources/intake-form.md question 2 (\"FF5F08\")" },
+    "--brand-accent-ink": { "status": "derived", "source": "contrast of --brand-ink on #FF5F08 = 6.75:1 (white 3.05:1), brand/intake.log.md" },
+    "--brand-muted": { "status": "locked", "source": "supplied by owner, answer 2026-10-29 (brand/intake.log.md); Figma \"dark grey\" #27272a, brand/sources/figma-export.md" },
+    "--brand-muted-on-ink": { "status": "derived", "source": "read from Figma \"Grays/Gray\" #8E8E93, brand/sources/figma-export.md; 6.31:1 on ink" },
+    "--brand-accent-2": { "status": "derived", "source": "read from Figma \"primary purple\" #C9BFFF, brand/sources/figma-export.md" },
+    "--brand-accent-3": { "status": "derived", "source": "read from Figma \"primary green\" #E2F8AE, brand/sources/figma-export.md" },
+    "--brand-font-display": { "status": "locked", "source": "supplied by owner, brand/sources/intake-form.md question 3 (\"Plus Jakarta Sans primarily for headers and copy\")" },
+    "--brand-font-body": { "status": "locked", "source": "supplied by owner, brand/sources/intake-form.md question 3" },
+    "--brand-weight-display": { "status": "derived", "source": "read from Figma \"Title\"/\"Heading\" styles (Bold, 700), brand/sources/figma-export.md" },
+    "--brand-weight-body": { "status": "derived", "source": "read from Figma \"Body\" style (Regular, 400), brand/sources/figma-export.md" },
+    "--brand-weight-label": { "status": "derived", "source": "read from Figma \"Body emphasised\" style (Bold, 700), brand/sources/figma-export.md" },
+    "--brand-tracking-display": { "status": "derived", "source": "read from Figma \"Title\"/\"Heading\" letterSpacing 0, brand/sources/figma-export.md" },
+    "--brand-radius": { "status": "derived", "source": "read from Figma card component 135:5101 (16px), brand/sources/figma-export.md" }
+  },
+  "assets": {
+    "logo.svg": { "sha256": "7065b8a0e7327b9532c226b263cb9a3599a4402e81edf582910fd7d0a5809d61", "status": "locked", "source": "supplied by owner, brand/sources/Forgettablelogo.svg (intake question 1), bytes unchanged" }
+  },
+  "fonts": { "source": "free", "families": ["Plus Jakarta Sans"], "status": "locked", "sourceNote": "named by owner, brand/sources/intake-form.md question 3; loaded from Google Fonts (owner answer 2026-10-29)" }
+}
