@@ -62,7 +62,7 @@ Derived from it:
 Share of the logo's opaque pixels at 1.5:1 or more against the ground (BAM fails under 0.4):
 - paper #F9FAFB: 0.95
 - accent #FF5F08: 0.79
-- ink #000020: 0.42 — the black asterisk (#010101) disappears; only the gradient arrow shows. Passes the number by a hair, but the mark does not read. **A reversed logo is needed for ink posts.**
+- ink #000020: 0.42 — the black asterisk (#010101) disappears; only the gradient arrow shows. Passes the number by a hair, but the mark does not read. **A reversed logo is needed for ink posts.** → Owner supplied it in chat 2026-10-29: `assets/logo-reversed.png` (white mark, transparent PNG, sha256 55212074…6b79), `locked`. Per intake step 5c, no scheme is assigned to it yet: that is decided when a sheet shows the main logo vanishing on ink.
 
 ## Photographs
 

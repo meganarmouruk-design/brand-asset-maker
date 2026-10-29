@@ -11,6 +11,7 @@ Links the owner gave. Files are in [sources/](sources/).
 
 - `intake-form.md` — the owner's answers to intake questions 1–9 (copied from Brand-Design/brand-folder.md).
 - `Forgettablelogo.svg` — the logo (intake question 1).
+- `Forgettablelogo-white.png` — the reversed (white) logo, transparent PNG 764×752, supplied by the owner in chat 2026-10-29.
 - `figma-export.md` — variables, type styles and card radius read from the Figma file.
 - `payments.png`, `policy-renewal.png` — two existing on-brand visuals from the owner's Brand-Design folder.
 - Owner answers given in chat on 2026-10-29 are logged in [intake.log.md](intake.log.md) and cited as "owner answer 2026-10-29".

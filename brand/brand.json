@@ -2,5 +2,7 @@
   "name": "forgettable",
   "wordmark": null,
   "logo": "brand/assets/logo.svg",
-  "source": "brand/sources/intake-form.md question 1: \"The logo is Forgettablelogo.svg, there is no text wordmark. It is spelled forgettable\""
+  "source": "brand/sources/intake-form.md question 1: \"The logo is Forgettablelogo.svg, there is no text wordmark. It is spelled forgettable\"",
+  "logoReversed": "brand/assets/logo-reversed.png",
+  "logoReversedSource": "supplied by owner in chat 2026-10-29 (brand/sources/Forgettablelogo-white.png): white mark, transparent PNG, 764x752"
 }

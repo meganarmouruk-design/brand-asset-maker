@@ -26,7 +26,7 @@ The one file an agent needs to make forgettable posts. Values are copied from `t
 - `.pg-frame[data-scheme="paper"] { --pg-accent-text: var(--brand-ink); }` — we guessed. Orange text on paper is 2.92:1; orange is for bars and marks on paper, never text.
 - `.pg-frame[data-scheme="ink"] { --pg-muted: var(--brand-muted-on-ink); }` — we guessed. `#27272A` on ink is 1.38:1.
 
-No themes. No `--brand-logo-variant` (there is no reversed logo yet).
+No themes. No `--brand-logo-variant` yet: the reversed logo exists, and which scheme uses it is decided when the first sheet shows the main logo vanishing (expected: ink).
 
 Source: [tokens.css](tokens.css), [locked.json](locked.json), [intake.log.md](intake.log.md)
 
@@ -57,19 +57,19 @@ Source: [voice.md](voice.md)
 
 You said is `locked` and we guessed is `derived` in `locked.json`; approval (you pick one) is the only thing that turns a guess into something you said.
 
-**You said:** paper `#F9FAFB`, ink `#000020`, accent `#FF5F08`, muted `#27272A`, Plus Jakarta Sans for display and body, the logo file, no wordmark, the tone words, the audience, the never-claim, Instagram and LinkedIn.
+**You said:** paper `#F9FAFB`, ink `#000020`, accent `#FF5F08`, muted `#27272A`, Plus Jakarta Sans for display and body, the logo file, the reversed (white) logo file, no wordmark, the tone words, the audience, the never-claim, Instagram and LinkedIn.
 
 **We guessed:** accent-ink `#000020`; muted-on-ink `#8E8E93`; accent-2 purple `#C9BFFF`; accent-3 green `#E2F8AE`; weights 700/400/700; tracking 0; radius 16px; both scheme overrides.
 
 **Open questions for the brand owner:**
-1. A reversed logo for dark (ink) posts — the black asterisk disappears on `#000020`.
-2. Are purple `#C9BFFF` and green `#E2F8AE` brand colours for posts, or app UI only?
-3. Character words (intake question 10), if you want posts checked for how they come across.
-4. Photographs, when a library exists.
+1. Are purple `#C9BFFF` and green `#E2F8AE` brand colours for posts, or app UI only?
+2. Character words (intake question 10), if you want posts checked for how they come across.
+3. Photographs, when a library exists.
 
 ## 5. Files
 
-- **Logo:** `brand/assets/logo.svg` (the asterisk-and-arrow mark, gradient orange/purple/green). Use it on paper and accent posts. On ink posts it barely reads: avoid the ink scheme until a reversed logo exists.
+- **Logo:** `brand/assets/logo.svg` (the asterisk-and-arrow mark, gradient orange/purple/green). Use it on paper and accent posts. On ink posts it barely reads (the black asterisk disappears).
+- **Reversed logo:** `brand/assets/logo-reversed.png` (white mark, transparent PNG; `brand.json` `logoReversed`). For ink posts, once the first sheet confirms the main logo vanishes there.
 - **Wordmark:** none. The name is spelled **forgettable**, all lower case. Never type it as a wordmark beside the logo.
 - **Formats:** feed post 1:1 and tall feed post 4:5 (Instagram, LinkedIn).
 - **Photographs:** none yet. Style the owner wants when they exist: "Candid, 90s grain film-inspired lifestyle photography meets playful fashion editorial. Naturalistic lighting, unconventional framing, expressive over-sized typograpth, effortless in attitude. It should almost feel spontaneous." A post over a photograph is a gap note (`workshop/gap-note.md`).
